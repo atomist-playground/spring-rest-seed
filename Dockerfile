@@ -1,9 +1,5 @@
 FROM openjdk:8
 
-RUN /bin/ls -al /kaniko \
-  && /bin/ls -al /kaniko/.docker \
-  && /bin/cat /kaniko/.docker/config.json
-
 LABEL maintainer="Atomist <docker@atomist.com>"
 
 RUN mkdir -p /app
