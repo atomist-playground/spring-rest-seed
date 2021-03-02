@@ -9,7 +9,7 @@ class DemoController {
 
 	@GetMapping("/")
 	public String root() {
-		return "Hello Kubernetes demo on Wed! I'm served by " + getClass().getName();
+		return "Hello Kubernetes demo on Tue! I'm served by " + getClass().getName();
 	}
 
 	@GetMapping("hello/{name}")
