@@ -14,3 +14,4 @@ ENTRYPOINT ["java", "-XX:+UnlockExperimentalVMOptions", "-XX:+UseCGroupMemoryLim
 
 COPY target/spring-boot.jar spring-boot.jar
  
+ 
